@@ -15,6 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
+/*
 package com.oneplus.shit.settings;
 
 import android.content.ContentResolver;
@@ -109,3 +110,4 @@ public class VibratorStrengthPreference extends Preference implements
         // NA
     }
 }
+*/

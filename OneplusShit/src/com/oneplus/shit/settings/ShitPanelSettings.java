@@ -51,7 +51,7 @@ import android.graphics.drawable.ColorDrawable;
 public class ShitPanelSettings extends PreferenceFragment
              implements Preference.OnPreferenceChangeListener {
 
-    public static final String KEY_VIBSTRENGTH = "vib_strength";
+    /*public static final String KEY_VIBSTRENGTH = "vib_strength";*/
 
     /*public static final String KEY_TAPTOWAKE_SWITCH = "taptowake";*/
 
@@ -67,7 +67,7 @@ public class ShitPanelSettings extends PreferenceFragment
     public static final String SPECTRUM_SYSTEM_PROPERTY = "persist.spectrum.profile";*/
 
     private SharedPreferences mPrefs;
-    private VibratorStrengthPreference mVibratorStrength;
+    /*private VibratorStrengthPreference mVibratorStrength;*/
     private TwoStatePreference mHBMModeSwitch;
     private static TwoStatePreference mHBMAutobrightnessSwitch;
     private TwoStatePreference mDCDimSwitch;
@@ -80,10 +80,10 @@ public class ShitPanelSettings extends PreferenceFragment
 
         mPrefs = PreferenceManager.getDefaultSharedPreferences(getContext());
 
-        mVibratorStrength = (VibratorStrengthPreference) findPreference(KEY_VIBSTRENGTH);
+        /*mVibratorStrength = (VibratorStrengthPreference) findPreference(KEY_VIBSTRENGTH);
         if (mVibratorStrength != null) {
             mVibratorStrength.setEnabled(VibratorStrengthPreference.isSupported());
-        }
+        }*/
 
         /*mTapToWakeSwitch = (TwoStatePreference) findPreference(KEY_TAPTOWAKE_SWITCH);
         mTapToWakeSwitch.setOnPreferenceChangeListener(new TapToWakeSwitch());*/
